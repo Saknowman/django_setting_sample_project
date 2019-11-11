@@ -6,15 +6,17 @@ APISettings sample for study.
 2. Init venv
 3. Install requirements.txt
 4. Generate secret key like this:
+```bush
   python generate_secretkey.py >> config/settings.py
-  
+```
+
 5. Migrate
 6. Create super user.
 7 Run server.
 
 ## Usage
 Try change config/settings.py. like this:
-
+```python
   ...
   TODO_API = {
       # if you want change status choices.
@@ -28,3 +30,4 @@ Try change config/settings.py. like this:
       # if you want change permissions
       'TASK_PERMISSIONS': []
   }
+```
