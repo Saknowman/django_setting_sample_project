@@ -11,8 +11,8 @@ APISettings sample for study.
 ```
 
 5. Migrate
-6. Create super user.
-7 Run server.
+6. Create super user
+7 Run server
 
 ## Usage
 Try change config/settings.py. like this:
